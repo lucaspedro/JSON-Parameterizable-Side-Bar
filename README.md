@@ -31,7 +31,7 @@ The main challenge of the implementation is in the nature of the distribution of
 
 The main function that performs the recursive mapping of the menu buttons is shown below:
 ```
-# Run COCO evaluation on the last trained model
+
 def rec_gen_lines(curr_node, node_len, level):
     ret = ""
     for i in range(node_len):
