@@ -1,0 +1,25 @@
+{
+		"menu":
+		[
+			{
+				"title": "Dashboards",
+				"icon": "view_quilt",
+				"child":
+				[
+					{
+						"title": "Wind",
+						"icon": "stop",
+						"child":
+						[
+							{
+								"title": "STC",
+								"routeName": "dashboards",
+								"icon": "pie_chart"
+							}
+						]
+					}
+				]
+			}
+
+		]
+	}

@@ -1,0 +1,28 @@
+
+<link rel="stylesheet" href ="{{ url_for('static', filename='lib/bootstrap/css/bootstrap.css') }}">
+<link rel="stylesheet" href ="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href ="{{ url_for('static', filename='css/scrollbar.css') }}">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div class="wrapper d-flex align-items-stretch">
+	<nav id="sidebar" >
+
+		<div class="p-4 pt-5">
+			<h3><a href="/home" class="logo"><img class="standard" src="{{ url_for('static', filename='imgs/logo-automalogica_branco.png') }}" alt="Automalógica" ></a></h3>
+	        <ul class="list-unstyled components mb-5">
+					{{ lines }}
+	        </ul>
+
+
+	        <div class="footer">
+	        	<p>
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+				</p>
+	        </div>
+
+	      </div>
+	</nav>
+
+<script src ="{{ url_for('static', filename='lib/jquery/jquery.js') }}"></script>
+<script src ="{{ url_for('static', filename='lib/bootstrap/js/bootstrap.js') }}"></script>
+<script src ="{{ url_for('static', filename='js/main.js') }}"></script>

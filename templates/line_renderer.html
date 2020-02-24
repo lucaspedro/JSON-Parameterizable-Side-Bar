@@ -1,0 +1,22 @@
+
+{% if has_child%}
+
+<li >
+    <a href="#{{title}}Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+        <i class="material-icons">{{icon}}</i> <span>{{title}}</span>
+    </a>
+    <ul class="collapse list-unstyled" id="{{title}}Submenu">
+
+{% else %}
+
+        <li>
+           <a href="#">
+             <i class="material-icons">{{icon}}</i> <span>{{title}}</span>
+           </a>
+        </li>
+
+{% endif %}
+
+
+
+

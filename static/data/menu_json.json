@@ -1,0 +1,135 @@
+	{
+		"menu":
+		[
+			{
+				"title": "Dashboards",
+				"icon": "view_quilt",
+				"child":
+				[
+					{
+						"title": "Wind1",
+						"icon": "stop",
+						"child":
+						[
+							{
+								"title": "STC1",
+								"routeName": "dashboards",
+								"icon": "pie_chart"
+							},
+							{
+								"title": "STC2",
+								"routeName": "dashboards",
+								"icon": "pie_chart"
+							},
+							{
+								"title": "STC3",
+								"routeName": "dashboards",
+								"icon": "pie_chart"
+							}
+						]
+					},
+					{
+						"title": "Wind2",
+						"icon": "stop",
+						"child":
+						[
+							{
+								"title": "STC1",
+								"routeName": "dashboards",
+								"icon": "pie_chart"
+							},
+							{
+								"title": "STC2",
+								"routeName": "dashboards",
+								"icon": "pie_chart"
+							},
+							{
+								"title": "STC3",
+								"routeName": "dashboards",
+								"icon": "pie_chart",
+								"child":
+								[
+									{
+										"title": "Wind3",
+										"icon": "stop",
+										"child":
+										[
+											{
+												"title": "STC1",
+												"routeName": "dashboards",
+												"icon": "pie_chart"
+											},
+											{
+												"title": "STC2",
+												"routeName": "dashboards",
+												"icon": "pie_chart"
+											},
+											{
+												"title": "STC4",
+												"routeName": "dashboards",
+												"icon": "pie_chart",
+												"child":
+												[
+													{
+														"title": "STC3",
+														"routeName": "dashboards",
+														"icon": "pie_chart"
+													},
+													{
+														"title": "STC9",
+														"routeName": "dashboards",
+														"icon": "pie_chart",
+														"child":
+														[
+															{
+																"title": "STC3",
+																"routeName": "dashboards",
+																"icon": "pie_chart"
+															},
+															{
+																"title": "STC3",
+																"routeName": "dashboards",
+																"icon": "pie_chart"
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+
+			},
+			{
+				"title": "Dashboards2",
+				"routeName": "dashboards",
+				"icon": "pie_chart"
+			},
+			{
+				"title": "Dashboards2",
+				"routeName": "dashboards",
+				"icon": "pie_chart"
+			},
+			{
+				"title": "STC90",
+				"routeName": "dashboards",
+				"icon": "pie_chart",
+				"child": [
+					{
+						"title": "STC3",
+						"routeName": "dashboards",
+						"icon": "pie_chart"
+					},
+					{
+						"title": "STC3",
+						"routeName": "dashboards",
+						"icon": "pie_chart"
+					}
+				]
+			}
+		]
+	}
